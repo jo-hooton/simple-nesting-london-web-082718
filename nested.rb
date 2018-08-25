@@ -18,7 +18,7 @@ end
 
 def dennis_ritchies_language
 "C"
-      
+
 end
 
 def adding_matz
@@ -30,6 +30,11 @@ def adding_matz
 
 	programmer_hash =
  		{
+				:yukihiro_matsumoto => {
+				:known_for => "Ruby",
+				:languages => ["LISP", "C"]
+			  },
+
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
